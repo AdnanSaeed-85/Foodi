@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-const linkClass = "border border-black hover:bg-green-500/[0.1] rounded-lg px-4 py-1";
+const linkClass = "p-2 font-semibold";
 const linkClass2 = "border border-black hover:bg-green-500/[0.1] rounded-lg px-2 py-1 text-[12px] bg-gray-100";
 
 export default function Navbar() {
@@ -11,15 +11,15 @@ export default function Navbar() {
   return (
     <div className="absolute top-0 left-0 w-full z-10 p-6 text-black">
       {/* Desktop */}
-      <div className="hidden lg:flex gap-6 justify-center">
-        <Link href="/" className={linkClass}>Home</Link>
-        <Link href="/about_us" className={linkClass}>About us</Link>
-        <Link href="/blog" className={linkClass}>Blog</Link>
-        <Link href="/cart" className={linkClass}>Cart</Link>
-        <Link href="/contact_us" className={linkClass}>Contact us</Link>
-        <Link href="/faq" className={linkClass}>FAQ</Link>
-        <Link href="/signup" className={linkClass}>Signup</Link>
-        <Link href="/user_profile" className={linkClass}>User Profile</Link>
+      <div className="hidden lg:flex items-center justify-between">
+        <div className="flex gap-6 justify-center flex-1">
+          <Link href="/" className="text-green-700 p-2 font-semibold">Home</Link>
+          <Link href="/about_us" className={linkClass}>About us</Link>
+          <Link href="/blog" className={linkClass}>Blog</Link>
+          <Link href="/faq" className={linkClass}>FAQ</Link>
+          <Link href="/contact_us" className={linkClass}>Contact us</Link>
+        </div>
+        <Link href="/signup" className="absolute right-[210px] p-1 px-5 bg-green-700 rounded-2xl text-white lg:text-[13px]">Signup</Link>
       </div>
 
       {/* Hamburger button */}
@@ -40,7 +40,6 @@ export default function Navbar() {
           </div>
         )}
       </div>
-
     </div>
   );
 }
