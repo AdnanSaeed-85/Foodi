@@ -5,21 +5,21 @@ export default function Home() {
     <section>
 
       {/* Section 1 - Hero Image */}
-      <div className="relative w-full h-[400px] md:h-[500px] lg:h-[720px] overflow-hidden bg-white">
+      <div className="relative w-full h-[400px] md:h-[500px] lg:h-[750px] overflow-hidden bg-white">
         
         {/* Background dark shape - right side */}
         <Image src="/for_home/bg1.png" alt="" width={600} height={650}
           className="absolute top-0 right-0
           w-[50%]
           md:w-[45%]
-          lg:w-[30%] lg:right-[0px] lg:top-[0px] h-full object-cover" />
+          lg:w-[36%] lg:right-[0px] lg:top-[0px] h-full object-cover" />
 
         {/* lemon */}
         <Image src="/for_home/bg3.png" alt="" width={100} height={100}
           className="absolute right-[35%] top-[40%]
           w-[60px]
           md:w-[80px]
-          lg:w-[350px] lg:top-[100px] lg:right-[400px]" />
+          lg:w-[350px] lg:top-[100px] lg:right-[350px]" />
 
         {/* Lemons/decorations */}
         <Image src="/for_home/bg2.png" alt="" width={300} height={300}
@@ -33,14 +33,14 @@ export default function Home() {
           className="absolute bottom-0 right-[30%]
           w-[80px]
           md:w-[120px]
-          lg:w-[200px] lg:right-[180px]" />
+          lg:w-[270px] lg:right-[180px]" />
 
         {/* Leaf - top left */}
         <Image src="/for_home/leaf_left.png" alt="" width={120} height={200}
           className="absolute top-0 left-0
           w-[80px]
           md:w-[100px]
-          lg:w-[120px] lg:top-[30px] lg:left-[5px]" />
+          lg:w-[130px] lg:top-[30px] lg:left-[5px]" />
 
         {/* Logo - top left */}
         <Image src="/for_home/logo.png" alt="" width={80} height={40}
@@ -54,7 +54,7 @@ export default function Home() {
           className="absolute right-[5%] top-[5%]
           w-[50px]
           md:w-[80px]
-          lg:w-[90px] lg:top-[400px] lg:right-[750px]" />
+          lg:w-[90px] lg:top-[450px] lg:right-[700px]" />
 
         {/* Sticks - bottom center */}
         <Image src="/for_home/sticks.png" alt="" width={80} height={120}
@@ -78,15 +78,15 @@ export default function Home() {
           lg:w-[30px] lg:right-[30px] lg:top-[230px]" />
 
         <div className="absolute top-[20%] left-[5%] md:left-[10%] w-[45%] md:w-[40%]">
-          <h3 className="text-[#d82e2e] font-semibold text-[13px] md:text-[15px] lg:text-[18px]">CHEF&apos;S SPECIAL</h3>
+          <h3 className="text-[#d82e2e] font-semibold text-[15px] md:text-[17px] lg:text-[20px]">CHEF&apos;S SPECIAL</h3>
           
-          <h1 className="font-semibold text-black text-[32px] md:text-[48px] lg:text-[62px] leading-tight">
+          <h1 className="font-semibold text-black text-[36px] md:text-[52px] lg:text-[68px] leading-tight">
             Freshness <br /> in every bite
           </h1>
-          <p className="text-gray-600 text-[13px] md:text-[15px] lg:text-[17px] mt-2">
+          <p className="text-gray-600 text-[15px] md:text-[17px] lg:text-[19px] mt-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quo studio.
           </p>
-          <button className="mt-4 bg-black text-white px-6 py-2 md:px-8 md:py-3 rounded-lg text-[13px] md:text-[16px]">
+          <button className="mt-4 bg-black text-white px-8 py-3 md:px-10 md:py-4 rounded-lg text-[15px] md:text-[18px]">
             Download Recipe
           </button>
         </div>
