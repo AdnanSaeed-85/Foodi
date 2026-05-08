@@ -183,18 +183,18 @@ export default function Home() {
           <div className="flex mt-4
             gap-3 
             sm:gap-4">
-            <button className="bg-[#195A00] text-white rounded-lg
-              px-6 py-2 text-[13px]
-              sm:px-8 sm:py-3 sm:text-[14px]
-              md:px-4">Show more</button>
+          <button className="bg-[#195A00] text-white rounded-lg
+            px-7 py-0 text-[10px]
+            sm:px-7 sm:py-0 sm:text-[12px]
+            lg:text-[13px]">Show more</button>
             <button className="flex items-center font-semibold
               gap-2 text-[12px]
               sm:text-[13px]">
               <span className="bg-[#195A00] rounded-full flex items-center justify-center text-white text-[12px]
-                w-10.5 h-10.5
-                sm:w-11 sm:h-11
-                md:w-11 md:h-11
-                lg:w-11 lg:h-11">
+                w-7 h-7
+                sm:w-9 sm:h-9
+                md:w-9 md:h-9
+                lg:w-9 lg:h-9">
                 <Image src="/for_home/Play.png" alt="" width={12} height={12} />
               </span>
               Watch video
@@ -220,8 +220,8 @@ export default function Home() {
         {/* Right - Why Choose Us */}
         <div className="w-full md:w-1/2">
           <h2 className="font-semibold text-black 
-            text-[28px] 
-            md:text-[32px]">Why People Choose us?</h2>
+            text-[22px] 
+            md:text-[28px]">Why People Choose us?</h2>
           <div className="flex flex-col gap-6 mt-6">
 
             {/* Card 1 */}
@@ -510,7 +510,7 @@ export default function Home() {
         </footer>
 
         <div className="relative h-0 overflow-visible">
-          <Image src="/for_home/bb.png" alt="" width={200} height={200} className="absolute right-0 bottom-190 md:bottom-110 lg:bottom-60 w-[100px] sm:w-[140px] md:w-[180px]" />
+          <Image src="/for_home/bb.png" alt="" width={200} height={200} className="absolute right-0 bottom-[-30px] md:bottom-110 lg:bottom-[-45px] w-[100px] sm:w-[140px] md:w-[180px]" />
         </div>
 
         {/* Bottom bar */}
