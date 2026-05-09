@@ -49,17 +49,10 @@ export default function Home() {
 
         <Image src="/for_home/leaf_left.png" alt="" width={120} height={200}
           className="absolute 
-            w-[40px] top-4 left-0
+            w-[30px] top-4 left-0
             sm:w-[80px] 
             md:w-[80px] 
             lg:w-[130px] lg:top-[30px] lg:left-[5px]" />
-
-        <Image src="/for_home/logo.png" alt="" width={80} height={40}
-          className="absolute
-            w-[50px] top-4 left-11  
-            sm:top-5 sm:left-8 sm:w-[60px] 
-            md:w-[80px] md:top-5 md:left-22
-            lg:top-[27px] lg:left-[170px]" />
 
         <Image src="/for_home/stobray.png" alt="" width={400} height={400}
           className="absolute

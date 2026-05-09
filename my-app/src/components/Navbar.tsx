@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -20,6 +21,13 @@ export default function Navbar() {
       lg:px-6 lg:py-6">
 
       <div className="flex items-center justify-between w-full">
+
+      <Image src="/for_home/logo.png" alt="" width={80} height={40}
+              className="absolute
+                w-[35px] top-4.5 left-8  
+                sm:top-5 sm:left-8 sm:w-[60px] 
+                md:w-[80px] md:top-5 md:left-22
+                lg:top-[27px] lg:left-[170px]" />
 
         {/* Links */}
         <div className="flex items-center
