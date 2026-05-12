@@ -40,20 +40,6 @@ export default function Navbar() {
             lg:top-[27px] lg:left-[170px]" />
       )}
 
-
-        {/* Links
-        <div className="flex items-center
-          gap-1
-          sm:gap-3
-          lg:gap-6
-          flex-1 justify-center">
-          <Link href="/" className={linkClass("/")}>Home</Link>
-          <Link href="/about_us" className={linkClass("/about_us")}>About us</Link>
-          <Link href="/blog" className={linkClass("/blog")}>Blog</Link>
-          <Link href="/faq" className={linkClass("/faq")}>FAQ</Link>
-          <Link href="/contact_us" className={linkClass("/contact_us")}>Contact us</Link>
-        </div> */}
-
         <div className="flex items-center
           gap-1
           sm:gap-3
